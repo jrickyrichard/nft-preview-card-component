@@ -10,19 +10,19 @@
 
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="h-[700px] bg-main-bg flex px-8 font-outfit">
-  <main class="bg-card-bg h-[calc(100%_-_2rem)] w-[350px] m-auto rounded-[1rem] px-6 py-8">
+<body class="h-full bg-main-bg flex px-8 font-outfit items-center justify-center">
+  <main class=" bg-card-bg h-[calc(100%_-_2rem)] w-[350px] m-auto rounded-[1rem] px-6 py-8">
 
-    <article id="image-content">
-      <picture>
-        <source media="(min-width: 375px)" srcset="images/image-equilibrium.jpg">
-        <img class="rounded-[1rem]" src="images/image-equilibrium.jpg" alt="">      
-      </picture>
-    </article>
+
+    <picture class="hover:cursor-pointer relative">
+      <section class="absolute h-[300px] w-[300px] rounded-[1rem] hover:bg-cyan hover:opacity-50 hover:bg-[url('./images/icon-view.svg')] bg-center bg-[length:50px] bg-no-repeat">  
+      </section>
+      <source media="(min-width: 375px)" srcset="images/image-equilibrium.jpg">
+      <img class="rounded-[1rem]" src="images/image-equilibrium.jpg" alt="">      
+    </picture>
 
     <article id="text-content">
-      <h1 class="text-white  text-[1.4rem] font-600 py-4"> Equilibrium #3429</h1>
-
+      <h1 class="text-white hover:cursor-pointer hover:text-cyan text-[1.4rem] font-600 py-4"> Equilibrium #3429</h1>
       <p class="text-soft-blue py-2">Our Equilibrium collection promotes balance and calm.</p>
       <section class="flex justify-between py-4">
         <section class="flex p-1 items-center">
@@ -37,7 +37,7 @@
       
       <section class="flex items-center border-t-line border-t-[0.1rem] py-4">
         <img class="h-[2rem] p-[0.05rem] rounded-full bg-white" src="../images/image-avatar.png" alt="">
-        <p class="text-soft-blue font-300 m-auto">Creation of <span class="text-white font-400">Jules Wyvern</span></p>
+        <p class="text-soft-blue font-300 m-auto">Creation of <span class="text-white font-400 hover:text-cyan hover:cursor-pointer">Jules Wyvern</span></p>
       </section>
     </article>
   </main>
